@@ -1,0 +1,168 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #151515;
+}
+
+div {
+    margin: 0;
+    padding: 0;
+}
+
+span {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    color: white;
+    list-style: none;
+}
+
+
+/*Abstand von den Bildern*/
+
+.countries-images {
+    margin: 8vh 0;
+    text-decoration: none;
+}
+
+
+/*Erste Überschrift*/
+
+.main>h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    text-align: center;
+    margin: calc(5vh + 50px) 17vw;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.card {
+    /*Bildabstand*/
+    padding: 50px;
+    min-width: 140px;
+    max-width: 250px;
+    /*Bildgröße*/
+    width: 11vw;
+    height: auto;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+}
+
+
+/*Bildgröße*/
+
+.card>img {
+    width: 12vw;
+}
+
+.card .country {
+    transition: opacity .4s, visibility .4s;
+}
+
+.card .card-details {
+    /*Bildabstand*/
+    padding: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .4s, visibility .4s;
+}
+
+.card:hover .country {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.card:hover .card-details {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+/*Gesamter Textabstand*/
+
+.countries-text {
+    margin: 20vh 15vw;
+}
+
+
+/*Überschriften Styling (Israel, Österreich,...)*/
+
+.countries-text>div>h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 2.5vw;
+    text-align: center;
+    width: 125vw;
+}
+
+
+/*Text Styling*/
+
+.countries-text>div>p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 1.3vw;
+    text-align: left;
+}
+
+.divider {
+    background-color: white;
+    height: 2px;
+    width: 100%;
+    margin: 12vh auto;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: rgb(117, 109, 113);
+}
+
+a:active {
+    color: rgb(117, 109, 113);
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
+}

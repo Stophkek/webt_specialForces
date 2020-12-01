@@ -1,0 +1,58 @@
+body {
+    background-color: #151515;
+}
+
+.Turkey-text-head {
+    font-family: 'Roboto', sans-serif;
+    font-size: 45px;
+    color: white;
+    text-align: center;
+}
+
+.divider {
+    background-color: white;
+    height: 1px;
+    width: 90%;
+    margin: 1vh auto;
+    padding-top: 2px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.side-image {
+    padding-left: 420px;
+    margin-top: -780px;
+}
+
+.Logo-image {
+    padding-left: 1345px;
+    margin-top: -127px;
+}
+
+.Force-image {
+    padding-left: 1210px;
+    margin-top: 70px;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: rgb(117, 109, 113);
+}
+
+a:active {
+    color: rgb(117, 109, 113);
+}

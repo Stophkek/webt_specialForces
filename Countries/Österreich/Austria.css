@@ -1,0 +1,58 @@
+body {
+    background-color: #151515;
+}
+
+.Austria-text-head {
+    font-family: 'Roboto', sans-serif;
+    font-size: 45px;
+    color: white;
+    text-align: center;
+}
+
+.divider {
+    background-color: white;
+    height: 1px;
+    width: 90%;
+    margin: 1vh auto;
+    padding-top: 2px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.side-image {
+    padding-left: 400px;
+    margin-top: -1120px;
+}
+
+.Logo-image {
+    padding-left: 1360px;
+    margin-top: -130px;
+}
+
+.Force-image {
+    padding-left: 1300px;
+    margin-top: 80px;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: rgb(117, 109, 113);
+}
+
+a:active {
+    color: rgb(117, 109, 113);
+}
